@@ -1,0 +1,129 @@
+
+body {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("jesse-orrico-tzded6Kf0R0-unsplash.jpg");
+  background-position: auto;
+  background-size: cover;
+  
+  color: white;
+  
+  
+}
+
+.left {
+  display: inline-block;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+.mid {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+  backdrop-filter: blur(5px);
+  border: 2px solid rgba(0, 128, 0, 0);
+  
+  text-align: center;
+  border-radius: 11px;
+}
+.right {
+  position: absolute;
+  right: 34px;
+  top: 32px;
+  display: inline-block;
+  /* border: 2px solid yellow; */
+}
+.navbar {
+  display: inline-block;
+  
+}
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 34px 23px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration:none;
+  color: rgb(43, 248, 15);
+}
+.left img {
+  width: 99px;
+  filter: invert(100%);
+  align-items: center;
+}
+.left div {
+  text-align: center;
+  line-height: 20px;
+  font-size: 25px;
+}
+.btn {
+  margin: 0px 9px;
+  color: white;
+  background-color: rgb(63, 168, 36);
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Signika Negative", sans-serif;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: #ffffff;
+  color:rgb(63, 168, 36);
+}
+.container {
+  border: 2px solid white;
+  
+  padding: 80px;
+  width: 33%;
+  border-radius: 28px;
+  margin: 160px auto;
+  backdrop-filter: blur(5px);
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 79%;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 8px;
+    font-size: 30px;
+    font-family: 'Signika Negative', sans-serif;
+    
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 79%;
+    margin: 18px auto;
+    font-size: 30px;
+}
+select{
+    text-align: center;
+    display: block;
+    width: 79%;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 8px;
+    font-size: 30px;
+    font-family: 'Signika Negative', sans-serif;
+}
+footer{
+   text-align: center;
+   backdrop-filter: blur(10px);
+   font-weight: 200;
+}
